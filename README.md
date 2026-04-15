@@ -10,13 +10,13 @@ This project demonstrates a blockchain-based solution for managing academic cert
 
 ## Smart Contract Functions
 
-### issueCertificate
+### IssueCertificate
 Allows an authorised institution to issue a new certificate and store it on the blockchain.
 
-### verifyCertificate
+### VerifyCertificate
 Enables third parties to verify the authenticity of a certificate using its ID.
 
-### revokeCertificate
+### RevokeCertificate
 Allows the institution to invalidate a certificate if necessary.
 
 ## Technology Used
