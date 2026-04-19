@@ -25,3 +25,23 @@ Allows the institution to invalidate a certificate if necessary.
 
 ## Purpose
 This prototype demonstrates how blockchain can improve data governance by providing a secure, transparent, and tamper-proof system for academic credential management.
+
+## How to Run the Project
+1. Open Remix IDE (https://remix.ethereum.org)
+2. Upload the AcademicCertificates.sol file
+3. Compile using Solidity 0.8.x
+4. Deploy using Remix VM
+5. Use the functions:
+   - IssueCertificate
+   - VerifyCertificate
+   - RevokeCertificate
+  
+## Limitations
+- The system does not currently include duplicate validation checks
+- Certificate data is stored in plain text, which may raise privacy concerns
+- Requires adoption by institutions to be effective in real-world scenarios
+
+## Assumptions
+- The contract owner represents a trusted academic institution
+- Certificate IDs are generated automatically and are unique
+- Users have basic knowledge of blockchain tools such as Remix IDE
