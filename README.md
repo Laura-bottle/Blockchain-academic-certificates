@@ -19,6 +19,7 @@ Enables third parties to verify the authenticity of a certificate using its ID.
 ### RevokeCertificate
 Allows the institution to invalidate a certificate if necessary.
 
+<img width="1024" height="533" alt="diagram png" src="https://github.com/user-attachments/assets/578cad54-7acc-4b7c-b884-daf2954690f7" />
 
 ## Technology Used
 - Solidity
