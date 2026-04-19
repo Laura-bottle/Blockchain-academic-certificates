@@ -37,7 +37,6 @@ contract AcademicCertificates {
 
     function IssueCertificate(
         string memory _StudentName,
-        string memory _ID,
         string memory _InstitutionName,
         string memory _Qualification,
         string memory _IssueDate
